@@ -1,0 +1,27 @@
+{
+  "name": "open-inci-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local-first INCI ingredient label scanner built with Next.js and Tesseract.js.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "16.2.9",
+    "react": "19.2.5",
+    "react-dom": "19.2.5",
+    "tesseract.js": "7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "25.6.0",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "typescript": "6.0.3"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}
